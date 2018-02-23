@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app="videoUploaderProcessStreetApp">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Process street video uploader to wistia</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/blueimp-file-upload/9.12.5/css/jquery.fileupload.css">
+
+  <script src="https://code.jquery.com/jquery-2.0.0.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-file-upload/9.12.5/js/vendor/jquery.ui.widget.js"></script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-file-upload/9.12.5/js/jquery.iframe-transport.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-file-upload/9.12.5/js/jquery.fileupload.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-file-upload/9.12.5/js/jquery.fileupload-process.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-file-upload/9.12.5/js/jquery.fileupload-image.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-file-upload/9.12.5/js/jquery.fileupload-video.js"></script>
+  <script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
+  
+  <script src="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.js"></script>
+  <script src="scripts/jquery-upload-component-module.js"></script>
+    <script src="scripts/app.js"></script>
+  
+</head>
+
+<body>
+  <div class="container body-content">
+    <jquery-upload-component 
+      api-password="3c678c2c765c0831c823ee175da01c1d5c081f4bc2bd8a934a105cce28584770" 
+      project-id="p0bvzo3bua">
+    </jquery-upload-component>
+  </div>
+
+</body>
+
+</html>
